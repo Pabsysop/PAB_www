@@ -3783,7 +3783,7 @@ nav.template-main-menu > ul > li:hover ul.mega-menu {
 
 /*------------------- 4.9 Section -------------------*/
 .section {
-    padding: 114px 0 100px;
+    padding: 114px 0 200px;
 }
 
 @media only screen and (max-width: 1199px) {
@@ -5213,23 +5213,31 @@ nav.template-main-menu > ul > li:hover ul.mega-menu {
     -ms-transform: scale(0.75);
     transform: scale(0.75);
     top: -8%;
-    right: -17%;
+    right: -5%;
 }
 
 .team-circle .nav-tabs .nav-item:nth-child(2n) {
     -webkit-transform: scale(0.55);
     -ms-transform: scale(0.55);
     transform: scale(0.55);
-    top: 34%;
-    left: -25%;
+    top: -8%;
+    right: -50%;
 }
 
 .team-circle .nav-tabs .nav-item:nth-child(3n) {
     -webkit-transform: scale(0.55);
     -ms-transform: scale(0.55);
     transform: scale(0.55);
-    top: 44%;
-    right: -35%;
+    top: -8%;
+    right: -95%;
+}
+
+.team-circle .nav-tabs .nav-item:nth-child(4n) {
+    -webkit-transform: scale(0.55);
+    -ms-transform: scale(0.55);
+    transform: scale(0.55);
+    top: -8%;
+    right: -140%;
 }
 
 .team-circle .nav-tabs .nav-link {
@@ -5260,26 +5268,32 @@ nav.template-main-menu > ul > li:hover ul.mega-menu {
     -webkit-transform: scale(0.55);
     -ms-transform: scale(0.55);
     transform: scale(0.55);
-    top: -14%;
-    left: -30%;
-    right: auto;
+    top: -8%;
+    right: -5%;
 }
 
 .team-circle .nav-tabs-right .nav-item:nth-child(2n) {
     -webkit-transform: scale(0.55);
     -ms-transform: scale(0.55);
     transform: scale(0.55);
-    top: 0;
-    left: auto;
-    right: -17%;
+    top: -8%;
+    right: -50%;
 }
 
 .team-circle .nav-tabs-right .nav-item:nth-child(3n) {
     -webkit-transform: scale(0.75);
     -ms-transform: scale(0.75);
     transform: scale(0.75);
-    top: 34%;
-    right: -40%;
+    top: -8%;
+    right: -95%;
+}
+
+.team-circle .nav-tabs-right .nav-item:nth-child(4n) {
+    -webkit-transform: scale(0.75);
+    -ms-transform: scale(0.75);
+    transform: scale(0.75);
+    top: -8%;
+    right: -140%;
 }
 
 .team-circle .tab-content {
@@ -5339,7 +5353,7 @@ nav.template-main-menu > ul > li:hover ul.mega-menu {
 
 .team-circle .team-box .item-content {
     position: absolute;
-    top: 90%;
+    top: 125%;
     left: 0;
     right: 0;
     -webkit-transform: translateY(-50%);
