@@ -11692,3 +11692,20 @@ nav.template-main-menu > ul > li:hover ul.mega-menu {
     -ms-transform: scale(1.1);
     transform: scale(1.1);
 }
+
+#mc_embed_signup {
+    display: block;
+}
+
+#mc_embed_word {
+    display: none;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 52px;
+}
+
+#ltelEmail {
+    font-size: 16px;
+    line-height: 52px;
+    padding-right: 12px;
+}
