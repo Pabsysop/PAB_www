@@ -526,3 +526,29 @@
     });
 
 })(jQuery);
+
+// 提交邮件后input消失，显示谢谢
+// 邮箱正则表达式
+
+var div = document.getElementById("mc_embed_signup");
+var div_word = document.getElementById("mc_embed_word");
+    
+window.onload= function(){
+    var email = document.getElementById("mce-EMAIL");
+    var labelEmail = document.getElementById("ltelEmail");
+
+    email.onblur = function(){
+        var telValue = email.value;
+        var pattern = /^[A-Za-z0-9\u4e00-\u9fa5]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$/;
+        if(pattern.test(telValue)){
+            div.style.display = "none"; // 让input的div消失 
+            div_word.style.display = "block"; // 让另一个文字div出现
+        }
+        else if(telValue =="" || telValue==null){
+            labelEmail.innerHTML = "The email address cannot be empty!";
+        }
+        else{
+            labelEmail.innerHTML = "Please enter the correct address!";
+        }
+    }
+}
