@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="no-js" lang="">
+<html class="no-js" lang="en">
 
 <head>
   <!-- Meta Data -->
@@ -637,8 +637,8 @@
                   method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
                   target="_blank" novalidate>
                   <div class="input-group">
-                    <input type="email" name="EMAIL" class="required email form-control" placeholder="Enter your e-mail"
-                      id="mce-EMAIL">
+                    <input type="email" name="EMAIL" class="required email form-control" placeholder="Enter your e-mail" id="mce-EMAIL">
+                    <label id="ltelEmail"></label>
                     <div id="mce-responses" class="clear">
                       <div class="response" id="mce-error-response" style="display:none"></div>
                       <div class="response" id="mce-success-response" style="display:none"></div>
@@ -648,8 +648,7 @@
                       <input type="text" name="b_ef2df60ec868eab8f10d1b388_99ec9bb2b4" tabindex="-1" value="">
                     </div>
                     <div class="input-group-append">
-                      <button class="button-slide" type="submit" name="subscribe" id="mc-embedded-subscribe"
-                        class="button">
+                      <button class="button-slide" type="submit" name="subscribe" id="mc-embedded-subscribe" onclick="changeDisplay();" class="button">
                         <span class="btn-text">Subscribe Now</span>
                         <span class="btn-icon">
                           <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -663,6 +662,7 @@
                   </div>
                 </form>
               </div>
+              <div id="mc_embed_word">Thank you and stay tuned!</div>
             </div>
           </div>
     </section>
@@ -782,9 +782,10 @@
   <script src="dependencies/bootstrap-validator/js/validator.min.js"></script>
   <script src="dependencies/select2/js/select2.min.js"></script>
   <script src="http://www.google.cn/maps/api/js?key=AIzaSyBtmXSwv4YmAKtcZyyad9W7D4AC08z0Rb4"></script>
-  <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
-  <script
-    type='text/javascript'>(function ($) { window.fnames = new Array(); window.ftypes = new Array(); fnames[0] = 'EMAIL'; ftypes[0] = 'email'; fnames[1] = 'FNAME'; ftypes[1] = 'text'; fnames[2] = 'LNAME'; ftypes[2] = 'text'; fnames[3] = 'ADDRESS'; ftypes[3] = 'address'; fnames[4] = 'PHONE'; ftypes[4] = 'phone'; fnames[5] = 'BIRTHDAY'; ftypes[5] = 'birthday'; }(jQuery)); var $mcj = jQuery.noConflict(true);</script>
+  <script type='text/javascript' src='http://s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+  <script type='text/javascript'>
+    (function ($) { window.fnames = new Array(); window.ftypes = new Array(); fnames[0] = 'EMAIL'; ftypes[0] = 'email'; fnames[1] = 'FNAME'; ftypes[1] = 'text'; fnames[2] = 'LNAME'; ftypes[2] = 'text'; fnames[3] = 'ADDRESS'; ftypes[3] = 'address'; fnames[4] = 'PHONE'; ftypes[4] = 'phone'; fnames[5] = 'BIRTHDAY'; ftypes[5] = 'birthday'; }(jQuery)); var $mcj = jQuery.noConflict(true);
+  </script>
 
   <!-- Site Scripts -->
   <script src="assets/js/app.js"></script>
