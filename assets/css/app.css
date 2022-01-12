@@ -4982,6 +4982,28 @@ nav.template-main-menu > ul > li:hover ul.mega-menu {
     z-index: 1;
 }
 
+@media only screen and (max-width: 600px) {
+    .groups-popular .groups-box .item-img {
+        width: 35%;
+        margin: 0 auto;
+    }
+    .groups-popular .groups-box {
+        padding-top: 13%;
+    }
+    .groups-box-notop{
+        padding-top: 0px !important;
+    }
+    .groups-box-notop1{
+        padding-top: 0px !important;
+    }
+    #milestone {
+        padding-bottom: 0;
+    }
+    .banner-newsletter {
+        min-height: 437px;
+    }
+}
+
 .groups-popular .groups-box .item-img:after {
     content: "";
     height: 100%;
@@ -5345,10 +5367,18 @@ nav.template-main-menu > ul > li:hover ul.mega-menu {
     z-index: 1;
 }
 
+/*团队人员图片*/
 .team-circle .team-box .item-img img {
     border-radius: 50%;
     /*-webkit-filter: grayscale(100%);*/
     /*filter: grayscale(100%);*/
+}
+
+@media only screen and (max-width: 600px) {
+    .team-circle .team-box .item-img img {
+        width: 35%;
+        margin-top: 15%;
+    }
 }
 
 .team-circle .team-box .item-content {
@@ -11693,8 +11723,10 @@ nav.template-main-menu > ul > li:hover ul.mega-menu {
     transform: scale(1.1);
 }
 
+/*提交邮箱弹出内容*/
 #mc_embed_signup {
     display: block;
+    height: 52px;
 }
 
 #mc_embed_word {
@@ -11706,6 +11738,7 @@ nav.template-main-menu > ul > li:hover ul.mega-menu {
 
 #ltelEmail {
     font-size: 16px;
+    margin: 0;
     line-height: 52px;
     padding-right: 12px;
 }
