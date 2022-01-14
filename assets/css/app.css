@@ -5351,6 +5351,14 @@ nav.template-main-menu > ul > li:hover ul.mega-menu {
     position: relative;
 }
 
+.team-circle .team-box .first {
+    margin-top: 29px;
+}
+
+.team-circle .team-box .second {
+    margin-top: 10px;
+}
+
 .team-circle .team-box .item-img:before {
     content: "";
     height: 100%;
@@ -5403,6 +5411,12 @@ nav.template-main-menu > ul > li:hover ul.mega-menu {
     transition: all 0.3s ease-in-out;
 }
 
+.team-circle .team-box .first-font a {
+    font-weight: 700;
+    font-size: 19px;
+    padding-bottom: 10px;
+}
+
 .team-circle .team-box .item-content .item-title a {
     color: #000000;
 }
@@ -5431,7 +5445,7 @@ nav.template-main-menu > ul > li:hover ul.mega-menu {
     background-color: #ffffff;
     border-radius: 4px;
     position: absolute;
-    left: 13px;
+    /* left: 13px; */
     right: 0;
     bottom: 0;
     margin: 0 auto;
