@@ -4165,6 +4165,7 @@ nav.template-main-menu > ul > li:hover ul.mega-menu {
     color: #ffffff;
     width: 50%;
     margin-bottom: 40px;
+    font-size: 17px;
 }
 
 @media only screen and (max-width: 991px) {
@@ -4810,6 +4811,8 @@ nav.template-main-menu > ul > li:hover ul.mega-menu {
 
 .community-network .map-marker {
     position: relative;
+    top: 157px;
+    left: 87px;
 }
 
 @media only screen and (max-width: 991px) {
