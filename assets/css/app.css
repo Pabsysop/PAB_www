@@ -5358,8 +5358,29 @@ nav.template-main-menu > ul > li:hover ul.mega-menu {
     margin-top: 29px;
 }
 
+.team-circle .team-box .first-h3 {
+    margin-top: -13px;
+}
+
 .team-circle .team-box .second {
     margin-top: 10px;
+    position: relative;
+    left: 139px;
+}
+
+.team-circle .team-box .second-h3 {
+    position: relative;
+    left: 139px;
+}
+
+.team-circle .team-box .third {
+    position: relative;
+    left: 257px;
+}
+
+.team-circle .team-box .third-h3 {
+    position: relative;
+    left: 257px;
 }
 
 .team-circle .team-box .item-img:before {
@@ -5383,6 +5404,9 @@ nav.template-main-menu > ul > li:hover ul.mega-menu {
     border-radius: 50%;
     /*-webkit-filter: grayscale(100%);*/
     /*filter: grayscale(100%);*/
+}
+
+.kim-img img {
 }
 
 @media only screen and (max-width: 600px) {
@@ -11759,3 +11783,7 @@ nav.template-main-menu > ul > li:hover ul.mega-menu {
     line-height: 52px;
     padding-right: 12px;
 }
+
+/* .green-link:hover {
+    transform: scale(1.07);
+} */
